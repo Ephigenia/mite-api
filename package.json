@@ -20,12 +20,16 @@
     "node": ">= 6"
   },
   "scripts": {
-    "update": "npm-check --update",
-    "test": "mocha",
+    "lint": "eslint lib",
+    "lint:fix": "npm run lint -- --fix",
+    "preversion": "npm test",
     "tdd": "npm run test -- --watch",
-    "preversion": "npm test"
+    "test:outdated": "npm-check --production",
+    "test": "mocha",
+    "update": "npm-check --update"
   },
   "dependencies": {
+    "eslint": "^6.0.1",
     "request": "^2.88.0"
   },
   "devDependencies": {
