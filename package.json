@@ -1,6 +1,13 @@
 {
   "name": "mite-api",
   "description": "Simple Node.js module to access the mite-api.",
+  "keywords": [
+    "api",
+    "mite",
+    "mite.yo.lk",
+    "time-tracking",
+    "timetracking"
+  ],
   "version": "0.1.1",
   "homepage": "https://github.com/marcel-devdude/mite-api",
   "license": "MIT",
@@ -42,6 +49,5 @@
     "mocha": "^8.0.1",
     "npm-check": "^5.9.2",
     "should": "^13.2.3"
-  },
-  "keywords": []
+  }
 }
