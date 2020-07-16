@@ -40,12 +40,12 @@
     "version": "npm run changelog && git add CHANGELOG.md"
   },
   "dependencies": {
-    "request": "^2.88.2",
-    "eslint": "^7.4.0"
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "conventional-changelog-cli": "^2.0.34",
     "conventional-recommended-bump": "^6.0.9",
+    "eslint": "^7.4.0",
     "mocha": "^8.0.1",
     "npm-check": "^5.9.2",
     "should": "^13.2.3"
