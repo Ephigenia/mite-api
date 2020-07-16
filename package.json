@@ -33,15 +33,15 @@
     "version": "npm run changelog && git add CHANGELOG.md"
   },
   "dependencies": {
-    "eslint": "^6.0.1",
-    "request": "^2.88.0"
+    "request": "^2.88.2",
+    "eslint": "^7.4.0"
   },
   "devDependencies": {
-    "conventional-changelog-cli": "^2.0.21",
-    "conventional-recommended-bump": "^5.0.0",
+    "conventional-changelog-cli": "^2.0.34",
+    "conventional-recommended-bump": "^6.0.9",
     "mocha": "^8.0.1",
     "npm-check": "^5.9.2",
-    "should": "^13.2.1"
+    "should": "^13.2.3"
   },
   "keywords": []
 }
